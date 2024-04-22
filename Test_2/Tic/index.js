@@ -63,6 +63,7 @@ function handleClick(index) {
   }
 }
 
+
 function resetBoard() {
   cells.forEach(cell => {
     cell.innerText = '';
