@@ -223,6 +223,7 @@ function createMinesweeperGrid() {
   }
 }
 
+
 function updateMineStatus() {
   mineStatus.textContent = `Mines remaining: ${mines}`;
 }
