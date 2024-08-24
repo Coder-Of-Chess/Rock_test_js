@@ -1,0 +1,78 @@
+/* Import a futuristic or anime-inspired font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #1e3a8a, #7f1d1d);
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border: 3px solid #ff0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff0;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #ff0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff0, #f00);
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+#yes-btn {
+    background: linear-gradient(135deg, #0f0, #00f);
+}
+
+#no-btn {
+    background: linear-gradient(135deg, #ff0, #f00);
+}
+
+button:hover {
+    background: #ff0;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8); /* Glowing effect */
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.hidden {
+    display: none;
+}
+
+#gift-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid #ff0;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#gift-card h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #ff0;
+}
